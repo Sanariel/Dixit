@@ -7,7 +7,7 @@ const MINATION = require('./commands/mination.js')
 
 
 bot.on('ready', function() {
-    bot.user.setGame('Voir l\'Avenir')
+    bot.user.setGame('Humour de Merde')
 })
 
 bot.on('guildMemberAdd', function (member) {
