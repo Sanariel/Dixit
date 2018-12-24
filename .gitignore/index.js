@@ -1,9 +1,9 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const Google = require('./commands/google')
-const Ping = require('./commands/ping')
-const Dixit = require('./commands/dixit')
-const MINATION = require('./commands/mination')
+const Google = require('./commands/google.js')
+const Ping = require('./commands/ping.js')
+const Dixit = require('./commands/dixit.js')
+const MINATION = require('./commands/mination.js')
 
 
 bot.on('ready', function() {
